@@ -28,7 +28,7 @@ if __name__ == "__main__":
 	flat_list_iter = [element for element in LISTITERATOR(multi_nested_list)]
 	print(flat_list_iter)
 
-	print(ListGENERATOR(LISTITERATOR(multi_nested_list)))
+	print()
 
 	for element_gen in ListGENERATOR(LISTITERATOR(multi_nested_list)):
 		print(element_gen)
